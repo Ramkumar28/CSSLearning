@@ -1,0 +1,25 @@
+title
+{
+    color: red;
+}
+
+body
+{
+    color: blue;
+    font: 6rem;
+}
+
+@media (max-width:500px) {
+    body
+    {
+        color: black;
+    }
+}
+
+@media (orientation : landscape) and (max-width : 500px)
+{
+    body 
+    {
+        color: darkgreen;
+    }
+}
